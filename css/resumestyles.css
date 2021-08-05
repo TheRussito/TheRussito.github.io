@@ -1,0 +1,83 @@
+:root {
+    /*COLORS*/
+	--logotipo: #1a1a1a;
+	--profesion: #f2f2f2;
+	--primario: #0d3dc0;
+
+    /*BORDER*/
+    --border: solid 3px;
+}
+
+.contenedor__contenido-resume{
+    margin: 1.3em auto;
+    padding-right: 15%;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    font-size: 15px;
+}
+
+.resume__profile{
+    font-size: 2em;
+    border-bottom: var(--border);
+    
+}
+.resume__profile >img{
+    width: 20%;
+    height: 20%;
+    margin: 2.67em auto;
+}
+.profile-photo{
+    border-radius: 50%;
+}
+
+
+.resume__socialmedia{
+    margin: 0.67em auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.resume__socialmedia > a{
+    margin: 0.25em;
+    transition:  .3s ease all;
+    border-radius: 30%;
+}
+.resume__socialmedia > a:hover{
+    transform: translateY(-5px);
+}
+
+.resume__about,
+.resume__software-proficiency,
+.resume__skills{
+    font-size: 2em;
+    text-align: center;
+    border-bottom: var(--border);
+    
+}
+
+.resume__software-proficiency,
+.resume__skills {
+    line-height: 2.4em;
+}
+
+.software-proficiency-icon{
+    height: 4%;
+    width: 4%;
+    margin: 0.3em;
+}
+
+p{
+    letter-spacing: 0.03em;
+}
+
+h2{
+    border-bottom: solid 0.03em;
+}
+
+h3{
+    text-align: start;
+}
