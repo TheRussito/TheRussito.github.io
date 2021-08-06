@@ -81,3 +81,13 @@ h2{
 h3{
     text-align: start;
 }
+
+@media screen and (max-width: 768px){
+    .resume__profile >img{
+        width: 50%;
+        height: 50%;
+        margin: 1.67em auto;
+    }
+    
+    
+} 
