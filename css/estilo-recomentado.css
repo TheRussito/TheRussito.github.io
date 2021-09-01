@@ -63,6 +63,19 @@ body{
     flex-direction: column;
 }
 
+/*VIDEOS*/
+.contenedor__videos{
+    border-top: solid 3px #090009;
+    width: 50%;
+    margin: auto;
+}
+
+.videos__video >iframe{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 
 /*FOOTER*/
 
