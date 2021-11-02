@@ -158,5 +158,10 @@ body{
         flex-direction: column;
         opacity: 85%;
     }
-    
+    .videos__video {
+        margin: auto;
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
 }  
